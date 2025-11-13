@@ -144,11 +144,17 @@ background: linear-gradient(184deg, rgba(51,51,51,1) 0%, rgba(82,82,82,1) 100%);
 	.side { float: none; width: 100%; position: relative; height: auto;}
   .side .logo { position: relative; top: auto; left: auto; transform: none; bottom: auto; margin: 0 auto; }
 	.main { float: none; width: 100%; padding: 0; }
-
-  .main .inner .filter {  }
-  .main .inner .filter p {width: 48%;}
 }
 @media only screen and (max-width: 425px) {
+  
+  .side { padding: 20px }
+
+  .main .header .overlay { padding: 20px 40px; box-sizing: border-box; text-align: center; }
+  .main .header .overlay .datetime { position: relative; transform: none; top: 0; left: 0; }
+  .main .header .overlay .weather { position: relative; transform: none; top: 0; left: 0; }
+  .main .header .overlay .datetime p, .main .header .overlay .weather p { font-size: 120%; }
+
+  .main .inner { padding: 40px 20px; }
 	.main .inner .boxes .box { width: 100%; margin-left: 0; }
 	.main .inner .boxes .box {width: 100%; margin: 0 0 10px 0;}
 

@@ -38,18 +38,6 @@ $(document).ready(function(){
 	  			
 	  		document.getElementById("temp").innerHTML = desc + " " + Math.round(celround) + "&#730;";
     	});
-
-
-	$('.gallery').slick({
-		dots: true,
-		arrows: false,
-		infinite: true,
-		fade: true,
-		autoplay: true,
-  		autoplaySpeed: 1500,
-  		slidesToShow: 1,
-  		slidesToScroll: 1,
-	});
 		
 });
 
