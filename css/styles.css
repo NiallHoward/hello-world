@@ -127,6 +127,10 @@ background: linear-gradient(184deg, rgba(51,51,51,1) 0%, rgba(82,82,82,1) 100%);
 
 @media only screen and (max-width: 1400px) {
 	.main .inner .boxes .box {width: 32.33333%;}
+  .side { padding: 20px; }
+  .side .me { width: 40%; }
+  .side p.link { font-size: 110%; }
+
 }
 @media only screen and (max-width: 1180px) {
 	.side p.email { word-break: break-word; }
